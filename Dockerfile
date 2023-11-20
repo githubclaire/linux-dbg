@@ -5,7 +5,7 @@ FROM ubuntu:18.04
 ENV TZ Asia/Shanghai
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update \
+#RUN apt-get update \
 #        && apt-get install -y --no-install-recommends \
 #                make tzdata \
 #               zlib1g-dev \
@@ -13,7 +13,7 @@ RUN apt-get update \
 #                libpci-dev \
 #                libpciaccess-dev \
 #                build-essential \  
-        && apt-get install git ssh make gcc libssl-dev liblz4-tool\
+RUN apt-get install git ssh make gcc libssl-dev liblz4-tool\
                 expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support\
                 qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib\
                 unzip\

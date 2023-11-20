@@ -16,7 +16,9 @@ RUN apt-get update \
               repo git \
               ssh make gcc \
               libssl-dev liblz4-tool\
-#                expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support\
+              expect g++ patchelf \
+              chrpath gawk texinfo \
+              chrpath diffstat binfmt-support\
  #               qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib\
  #               unzip\
  #               device-tree-compiler ncurses-dev\

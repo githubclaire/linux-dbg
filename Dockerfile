@@ -6,7 +6,7 @@ ENV TZ Asia/Shanghai
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
-#        && apt-get install -y --no-install-recommends \
+        && apt-get install -y --no-install-recommends \
 #                make tzdata \
 #               zlib1g-dev \
 #                libudev1 libudev-dev \
@@ -14,7 +14,7 @@ RUN apt-get update \
 #                libpciaccess-dev \
 #                build-essential \  
  #       && apt-get install repo git \
-        && apt-get install ssh make gcc \
+              ssh make gcc \
  #       && apt-get install libssl-dev liblz4-tool\
 #                expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support\
  #               qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib\

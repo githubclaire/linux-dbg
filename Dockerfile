@@ -13,7 +13,7 @@ RUN apt-get update \
 #                libpci-dev \
 #                libpciaccess-dev \
 #                build-essential \  
-        && apt-get install repo git \
+ #       && apt-get install repo git \
         && apt-get install ssh make gcc \
  #       && apt-get install libssl-dev liblz4-tool\
 #                expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support\

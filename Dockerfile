@@ -13,7 +13,7 @@ RUN apt-get update \
                 libpci-dev \
                 libpciaccess-dev \
                 build-essential \  
-        && apt-get install repo git ssh make gcc libssl-dev liblz4-tool\
+        && apt-get install git ssh make gcc libssl-dev liblz4-tool\
                 expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support\
                 qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib\
                 unzip\
